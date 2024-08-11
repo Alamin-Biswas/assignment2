@@ -1,0 +1,19 @@
+
+@media  screen and (max-width:800px){
+    .menu{
+        padding-left: 15px;
+    }
+    .navbar{
+        padding: 3% 9%;
+    }
+    
+}
+
+@media  screen and (max-width:576px){
+    .hamburger-menu{
+        display: block;
+    }
+    .navbar-menu{
+        display: none;
+    }
+}
