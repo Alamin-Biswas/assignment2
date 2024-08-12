@@ -22,7 +22,7 @@
   }
 
   /* Shared Styles */
-  .home-btn{
+  .orange-btn{
     background-color: rgba(230, 83, 60, 1);
     color: #fff;
     font-weight: 600;
@@ -33,15 +33,24 @@
 
   }
 
+  .description{
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.65);
+    letter-spacing: 1px;
+  }
+
+  header{
+    background: linear-gradient(0deg, #111, #222 , #111);
+    padding: 3% 13%;
+  }
+
   /* Navigation Bar Styling */
 
   .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background-color: black; */
-    background: linear-gradient(45deg, #111, #222 , #111);
-    padding: 3% 13%;
+    position: relative;
   }
 
   .nav-header{
@@ -67,4 +76,106 @@
   .hamburger-menu{
     color: #fff;
     display: none;
+  }
+
+  /* Banner Styling */
+  .banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+
+  .banner-left>h1{
+    font-size: 5rem;
+    margin-bottom: 4%;
+    width: 100%;
+  }
+/* Miama Font Added Here */
+  @font-face {
+    font-family: Miama;
+    src: url(../font/Miama.ttf);
+  }
+  
+  .banner-left>h1>span{
+    font-family: Miama;
+    font-size: 11rem;
+    font-weight: 400;
+    line-height: 0;
+  }
+
+  .banner-cart-parent{
+    position: relative;
+  }
+  .banner-cart{
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    width: 193px;
+    height: 98px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    margin-left: 140%;
+    margin-top: -43%;
+  }
+  
+  .banner-cart span{
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #fff;
+  }
+
+  .join-btn{
+    padding: 15px 40px;
+    margin: 4% 5% 4% 0;
+  }
+
+  .download-btn{
+    padding: 16px 40px;
+    border: 1px solid #fff;
+    border-radius: 40px;
+    background: none;
+    color: #fff;
+    position: relative;
+  }
+
+
+  /* Banner cart 2 */
+
+  .banner-cart2{
+  background: rgba(48, 48, 48, 0.54);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  width: 206px;
+  height: 96px;
+  display: flex;
+  justify-content: center;
+  gap:10px;
+  align-items: center;
+  position: absolute;
+  margin-left: 38%;
+  }
+
+  .banner-cart2 div{
+    background-color: rgb(230, 83, 60);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+
+  .banner-cart2 p span{
+    font-size: 1.5rem;
+    font-weight: 900;
+    letter-spacing: 0.4px;
+    color: #fff;
+  }
+
+
+  /* Banner Image Styling Here */
+
+  .banner-image{
+    width: 100%;
   }
