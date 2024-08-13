@@ -19,6 +19,8 @@
   body{
     max-width: 1440px;
     margin: 0 auto;
+    position: relative;
+    width: 100%;
   }
 
   /* Shared Styles */
@@ -32,6 +34,9 @@
     border-radius: 2rem;
 
   }
+  .text-center{
+    text-align: center;
+  }
 
   .description{
     font-size: 0.8rem;
@@ -39,9 +44,10 @@
     letter-spacing: 1px;
   }
 
+/* Header style started here */
+
   header{
-    background: linear-gradient(0deg, #111, #222 , #111);
-    padding: 3% 13%;
+    margin: 0 auto;
   }
 
   /* Navigation Bar Styling */
@@ -50,7 +56,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
+    background: linear-gradient(0deg, #111, #111 );
+    padding: 3% 13%;
   }
 
   .nav-header{
@@ -83,13 +90,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 8%;
     color: #fff;
+    background: linear-gradient(0deg, #111, #222 , #111);
+    padding: 3% 9%;
   }
-
+.banner-left{
+  width: 50%;
+}
   .banner-left>h1{
     font-size: 5rem;
     margin-bottom: 4%;
-    width: 100%;
   }
 /* Miama Font Added Here */
   @font-face {
@@ -104,33 +115,14 @@
     line-height: 0;
   }
 
-  .banner-cart-parent{
-    position: relative;
-  }
-  .banner-cart{
-    background-color: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(20px);
-    width: 193px;
-    height: 98px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 12px;
-    display: grid;
-    place-items: center;
-    position: absolute;
-    margin-left: 140%;
-    margin-top: -43%;
-  }
-  
-  .banner-cart span{
-    font-size: 2.5rem;
-    font-weight: 900;
-    color: #fff;
-  }
-
   .join-btn{
     padding: 15px 40px;
     margin: 4% 5% 4% 0;
   }
+
+ #small-join-btn{
+  display: none;
+ }
 
   .download-btn{
     padding: 16px 40px;
@@ -142,40 +134,111 @@
   }
 
 
-  /* Banner cart 2 */
+ 
 
-  .banner-cart2{
-  background: rgba(48, 48, 48, 0.54);
-  backdrop-filter: blur(20px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 12px;
-  width: 206px;
-  height: 96px;
-  display: flex;
-  justify-content: center;
-  gap:10px;
-  align-items: center;
-  position: absolute;
-  margin-left: 38%;
-  }
 
-  .banner-cart2 div{
-    background-color: rgb(230, 83, 60);
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-  }
-
-  .banner-cart2 p span{
-    font-size: 1.5rem;
-    font-weight: 900;
-    letter-spacing: 0.4px;
-    color: #fff;
-  }
+ 
 
 
   /* Banner Image Styling Here */
 
   .banner-image{
-    width: 100%;
+    width: 50%;
+    position: relative;
   }
+
+  .banner-cart{
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    width: 193px;
+    height: 98px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 10%;
+  }
+
+  .banner-cart span{
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #fff;
+  }
+
+  .banner-cart2{
+    background: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    width: 206px;
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    align-items: center;
+    position: absolute;
+    margin-left:-4%;
+    margin-top: 33%;
+    }
+    .red-sign{
+      background-color: rgb(230, 83, 60);
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+    }
+
+    .play-button{
+      display: none;
+      background-color: rgb(230, 83, 60);
+      padding: 10px 13px;
+      border-radius: 50%;
+    }
+
+    .banner-cart2 p span{
+      font-size: 1.5rem;
+      font-weight: 900;
+      letter-spacing: 0.4px;
+      color: #fff;
+    }
+  
+
+    /* Habit section design start here */
+
+    .habit{
+      padding-top: 100px;
+      background:linear-gradient(#111, #000);
+      color: #fff;
+    }
+    .habit-page-header{
+      font-size: 3rem;
+      font-weight: 900;
+      text-align: center;
+
+    }
+
+
+.habit-images{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  padding: 5% 13%;
+  gap: 8%;
+  width: 100%;
+} 
+
+.habit-images div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.habit-img{
+  border-radius: 100%;
+}

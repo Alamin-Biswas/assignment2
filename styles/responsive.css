@@ -3,17 +3,90 @@
     .menu{
         padding-left: 15px;
     }
-    .navbar{
+   .navbar{
         padding: 3% 9%;
     }
-    
+}
+
+@media screen and (max-width:1100px){
+  .habit-images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
 }
 
 @media  screen and (max-width:576px){
+  .navbar{
+    padding-left: 3%;
+    padding-right: 10%;
+  }
     .hamburger-menu{
         display: block;
     }
     .navbar-menu{
         display: none;
     }
+    .banner-left{
+        width: 100%;
+    }
+    .banner{
+        flex-direction: column;
+        padding: 0 3%;
+
+    }
+    .banner-left>h1{
+        font-size: 3rem;
+        margin: 15% 0;
+      }
+      .banner-left>h1>span{
+        font-size: 7rem;
+      }
+      #small-join-btn{
+        display: inline-flex;
+        margin:20px 0;
+        margin: 15% 2% 4% 0;
+      }
+      .download-btn{
+        padding: 13px 10px;
+      }
+      .big-join-btn{
+        display: none;
+      }
+
+    .banner-cart{
+            width: 140px;
+            height: 70px;
+            border-radius: 9px;
+            margin-left: 45%;
+            margin-top: 10%;
+      }
+      .banner-cart span{
+            font-size: 1.5rem;
+     }
+
+      .banner-cart2{
+            border-radius: 9px;
+            width: 150px;
+            height: 70px;
+            margin-left:4%;
+            margin-top: 50%;
+      }
+      .red-sign{
+                display: none;
+      }
+      .play-button{
+                display: inline;
+                margin-top: 30;
+      }
+
+
+      .habit-page-header{
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+      }
+      .habit-images{
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+      }
 }
