@@ -388,3 +388,67 @@
   font-size: 1.5em;
   text-align: center;
 }
+
+
+/* Meet Our Trainers Section Started Here */
+
+.trainers{
+  padding: 3% 13%;
+  
+}
+
+.trainer-img-parent{
+  background-color: #333;
+  /* position: relative; */
+  border-radius: 18px;
+  margin-top: 70px;
+}
+
+.trainer-img-parent>div{
+  display: flex;
+}
+
+.trainers-div2{
+  margin-bottom: 1%;
+}
+
+.bg-style{
+  width: 32%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 18px;
+  margin: 1% 0 0 1%;
+}
+
+
+.trainer-1{
+  background-image: url(../images/trainer1.png);
+}
+.trainer-2{
+  background-image: url(../images/trainer2.png);
+}
+.trainer-3{
+  background-image: url(../images/trainer3.png);
+}
+.trainer-4{
+  background-image: url(../images/trainer4.png);
+}
+.trainer-5{
+  background-image: url(../images/trainer5.png);
+}
+.trainer-6{
+  background-image: url(../images/trainer6.png);
+}
+
+
+.bg-style>h1{
+  position: relative;
+  padding: 50% 0 0 10%;
+  font-weight: 900;
+  text-shadow: 1px 1px #000;
+}
+.bg-style>p{
+  padding-left: 10%;
+}
+

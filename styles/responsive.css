@@ -113,4 +113,33 @@
     .parent-div-5{
       width: 55%;
     }
+
+    /* Meet our Team Section */
+
+    .trainers{
+      padding: 3% 3%;
+    }
+    .trainer-4,.trainer-5{
+      display: none;
+    }
+    .trainer-img-parent>div{
+      flex-direction: column;
+    }
+    .bg-style{
+      width: 95%;
+      height: 400px;
+      margin: 3%;
+    }
+    .bg-style>h1{
+      padding: 70% 0 0 5%;
+
+    }
+    .bg-style>p{
+      padding-left:5%;
+    }
+    
 }
+
+
+
+
