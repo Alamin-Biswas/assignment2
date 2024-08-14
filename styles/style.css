@@ -21,6 +21,8 @@
     margin: 0 auto;
     position: relative;
     width: 100%;
+    background-color: #000;
+    color: #fff;
   }
 
   /* Shared Styles */
@@ -42,6 +44,13 @@
     font-size: 0.8rem;
     color: rgba(255, 255, 255, 0.65);
     letter-spacing: 1px;
+  }
+
+  .section-heading{
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+
   }
 
 /* Header style started here */
@@ -211,13 +220,6 @@
       background:linear-gradient(#111, #000);
       color: #fff;
     }
-    .habit-page-header{
-      font-size: 3rem;
-      font-weight: 900;
-      text-align: center;
-
-    }
-
 
 .habit-images{
   display: flex;
@@ -241,4 +243,148 @@
 
 .habit-img{
   border-radius: 100%;
+}
+
+
+
+/* Running-Section is Designed here .................*/
+
+.running-section{
+  background-color: #333;
+  margin: 3% 14%;
+  display: flex;
+  border-radius: 18px;
+
+}
+
+.run-left-sec{
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+ padding: 3% 3%;
+}
+
+.run-img-div{
+  padding: 3%;
+  width: 100%;
+}
+
+.running-img{
+  width: 100%;
+  border-radius: 18px;
+}
+
+
+
+
+
+/*Exercises Section Designed Here ..............................................*/
+
+.training-exercises{
+  position: relative;
+  padding: 3% 13%;
+}
+.training-exercises>h1{
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.exercises{
+  margin-top: 50px;
+}
+.exercises>div{
+  display: flex;
+}
+/* Div Number 1 ------------------------------ */
+.parent-div-1{
+  width: 25%;
+  height: 200px;
+  background: url(../images/exercise1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.child-div-1{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(6, 255, 210, 0.5);
+}
+
+/* Div Number 2---------------------------------- */
+.parent-div-2{
+  width: 50%;
+  height: 200px;
+  background: url(../images/exercise2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.child-div-2{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 0, 0, 0.3);
+}
+
+
+/* div number 3------------------------------ */
+.parent-div-3{
+  width: 25%;
+  height: 200px;
+  background: url(../images/exercise3.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+
+/* Div number 4------------------------------------- */
+.parent-div-4{
+  width: 40%;
+  height: 200px;
+  background: url(../images/exercise4.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+/* div number 5--------------------------------- */
+.parent-div-5{
+  width: 25%;
+  height: 200px;
+  background: url(../images/exercise5.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.child-div-5{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(66, 255, 0, 0.3);
+}
+
+
+/* Div number 6--------------------- */
+.parent-div-6{
+  width: 35%;
+  height: 200px;
+  background: url(../images/exercise6.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.child-div-6{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 71, 255, 0.3);
+}
+
+.exercise-name{
+  font-size: 1.5em;
+  text-align: center;
 }

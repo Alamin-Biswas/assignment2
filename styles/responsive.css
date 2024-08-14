@@ -89,4 +89,28 @@
         flex-direction: column;
         gap: 60px;
       }
+      /* Running section have been responsive here */
+
+    .running-section{
+     flex-direction: column;
+     margin: 3% 3%;
+    }
+
+    /* Training and Exercise Section being responsive here */
+
+    .training-exercises{
+      padding: 3% 3%;
+    }
+    .parent-div-3, .parent-div-6{
+      display: none;
+    }
+    .parent-div-1, .parent-div-2{
+      width: 50%;
+    }
+    .parent-div-4{
+      width: 45%;
+    }
+    .parent-div-5{
+      width: 55%;
+    }
 }
