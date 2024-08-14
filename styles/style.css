@@ -516,6 +516,67 @@ input,select{
 }
 
 
+/* Office section Added here */
+.office-img-parent{
+  margin: 40px 0;
+  padding: 3% 13%;
+  background-color: rgba(135, 135, 127, 0.396);
+}
+.office-heading{
+  font-size: 2rem;
+  color: #acbaf4;
+  text-align: center;
+  text-shadow: 2px 2px rgb(185, 241, 185);
+}
+.img-div{
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+.office-image1{
+  background: url(../images/gymnasium1.jpg);
+  height: 200px;
+  width: 30%;
+  border-radius: 50px;
+  background-position: center;
+}
+.office-image2{
+  background: url(../images/gymnasium2.jpg);
+  height: 200px;
+  width: 30%;
+  border-radius: 50px;
+  background-position: center;
+}
+.office-image3{
+  background: url(../images/gymnasium3.jpg);
+  height: 200px;
+  width: 30%;
+  border-radius: 50px;
+  background-position: center;
+}
+.office-image4{
+  background: url(../images/gymnasimu4.png);
+  height: 200px;
+  width: 30%;
+  border-radius: 50px;
+  background-position: center;
+}
+.office-image5{
+  background: url(../images/gymnasium5.png);
+  height: 200px;
+  width: 30%;
+  border-radius: 50px;
+  background-position: center;
+}
+.office-image6{
+  background: url(../images/gymnasium6.jpg);
+  height: 200px;
+  width: 30%;
+  border-radius: 50px;
+  background-position: center;
+}
+
+
 /* Footer section designed Here */
 footer{
   background-color: rgba(255, 255, 255, 0.1);

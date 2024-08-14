@@ -166,7 +166,21 @@
     .sex-selection{
       width: 40%;
     }
-}
+    .img-div{
+      flex-direction: column;
+    }
+
+    .office-image1,.office-image2,.office-image3,.office-image4,.office-image5,.office-image6{
+      width: 100%;
+    }
+    .office-img-parent{
+      padding: 3%;
+    }
+    .office-heading{
+      color: aliceblue;
+      text-shadow: none;
+    }
+  }
 
 
 
