@@ -427,7 +427,7 @@ th,td{
   margin-bottom: 30px;
 }
 .sex-selection{
-  width: 35%;
+  width: 39%;
   height: 40px;
 }
 label,select{
@@ -445,7 +445,7 @@ input,select{
   color: rgba(255, 255, 255, 0.6);
 }
 .activity-selection{
-  width: 70%;
+  width: 79%;
   height: 40px;
 }
 
