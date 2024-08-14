@@ -100,18 +100,19 @@
 
     .training-exercises{
       padding: 3% 3%;
+      margin: 0 auto;
     }
     .parent-div-3, .parent-div-6{
       display: none;
     }
     .parent-div-1, .parent-div-2{
-      width: 50%;
+      width: 48%;
     }
     .parent-div-4{
       width: 45%;
     }
     .parent-div-5{
-      width: 55%;
+      width: 50%;
     }
 
     /* Meet our Team Section */
@@ -129,6 +130,7 @@
       width: 95%;
       height: 400px;
       margin: 3%;
+      background-position: center;
     }
     .bg-style>h1{
       padding: 70% 0 0 5%;
@@ -137,7 +139,33 @@
     .bg-style>p{
       padding-left:5%;
     }
-    
+
+    /* Footer section responsive code*/
+    .footer{
+      flex-direction: column;
+      gap: 50px;
+      margin: 0 3%;
+    }
+    .footer-right{
+      flex-direction: column;
+      gap: 50px;
+    }
+    .bmi-calculator{
+      flex-direction: column;
+    }
+    .bmi-calculator-chart{
+      margin-left: 0;
+      margin-top: 40px;
+    }
+    input{
+      width: 40%;
+    }
+    .activity-selection{
+      width: 80%;
+    }
+    .sex-selection{
+      width: 40%;
+    }
 }
 
 

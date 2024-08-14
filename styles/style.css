@@ -41,9 +41,9 @@
   }
 
   .description{
-    font-size: 0.8rem;
-    color: rgba(255, 255, 255, 0.65);
-    letter-spacing: 1px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    letter-spacing: 0.3px;
   }
 
   .section-heading{
@@ -388,8 +388,71 @@
   font-size: 1.5em;
   text-align: center;
 }
+/* BMI calculator section designed here............... */
 
+.bmi-header-section{
+  padding-left: 25%;
+}
+.bmi-header-section>h1{
+  font-size: 3rem;
+  font-weight: 900;
+}
 
+.bmi-calculator{
+  padding: 3% 13%;
+  display: flex;
+  background-color: rgb(34, 34, 34);
+  margin-top: 88px;
+}
+.bmi-chart>h1,.bmi-calculator-chart>h1{
+  font-size: 2rem;
+  font-weight: 700;
+  padding-bottom: 50px;
+}
+
+table,td,th{
+  border: 1px solid #fff;
+  border-collapse: collapse;
+}
+
+th,td{
+  padding: 10px  10px;
+}
+
+.bmi-calculator-chart{
+  margin-left: 20%;
+}
+
+.bmi-calculator-chart p{
+  margin-bottom: 30px;
+}
+.sex-selection{
+  width: 35%;
+  height: 40px;
+}
+label,select{
+  margin-top: 5px;
+  border-radius: 8px;
+}
+input{
+  padding: 3px;
+  border-radius: 8px;
+  height: 40px;
+}
+input,select{
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+.activity-selection{
+  width: 70%;
+  height: 40px;
+}
+
+.calculate-btn{
+  padding: 10px 20%;
+  margin-top: 30px;
+}
 /* Meet Our Trainers Section Started Here */
 
 .trainers{
@@ -450,5 +513,47 @@
 }
 .bg-style>p{
   padding-left: 10%;
+}
+
+
+/* Footer section designed Here */
+footer{
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.footer{
+  display: flex;
+  margin: 0 13%;
+  padding: 3% 0;
+  justify-content: space-between;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.1);
+  
+}
+.footer-left{
+  width: 60%;
+  padding-right: 10%;
+}
+.footer-left>h1{
+  font-size: 5rem;
+  font-weight: 800;
+  color:#E6533C ;
+
+}
+
+.footer-right{
+  display: flex;
+  gap: 10%;
+  width: 100%;
+}
+.footer-right-child{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+.footer-right h1{
+  font-size: 2.4rem;
+}
+.footer+p{
+  padding: 40px 0;
 }
 
